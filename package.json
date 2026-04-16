@@ -1,0 +1,16 @@
+{
+  "name": "maribi-server",
+  "version": "1.0.0",
+  "description": "마리비 백그라운드 알림 서버",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
