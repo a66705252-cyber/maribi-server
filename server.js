@@ -80,7 +80,7 @@ async function fetchWeather(date) {
   }
 }
  
-async async function tick() {
+async function tick() {
   const now = Date.now();
   const kst = kstNow();
   console.log('[체크] ' + kst.toUTCString() + ' | 일정: ' + schedules.length + '개');
