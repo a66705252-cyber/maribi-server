@@ -129,3 +129,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log('[시작] 포트 ' + PORT);
   tg('🐾 <b>마리비 서버 재시작!</b>\n✅ 30초마다 알림 체크 시작\n✅ 폰 잠금에서도 알림 전송');
+
+ });
