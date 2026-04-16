@@ -1,3 +1,4 @@
+const KST_OFFSET = 9 * 60 * 60 * 1000;
 const express = require('express');
 const cors = require('cors');
 const app = express();
@@ -102,7 +103,7 @@ function checkMorning() {
 setInterval(() => {
   checkReminders();
   checkMorning();
-}, 60000);
+}, 30000);
 
 // ── API 엔드포인트 ──
 
